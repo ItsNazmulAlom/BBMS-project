@@ -1,0 +1,159 @@
+#full{
+	width: 100%;
+	height: auto;
+}
+#indder_full{
+	width: 100%;
+    height: auto;
+    margin: auto;
+}
+#header{
+    width: 100%;
+    height: 50px;
+    background-color: #adadb2;
+    color: black;
+    margin-top: 0px;
+}
+#header h2{
+	color: white;
+	position: center;
+	padding-top: 5px;
+}
+#body{
+    width: 100%;
+    height: 600px;
+}
+#body h1{
+    margin-top: 0px;
+    text-align: left;
+}
+ #body h3 a{
+width: 80px;
+text-align: right;
+background-color: gainsboro;
+display: block;
+padding: 0.2em;
+display: block;
+text-decoration: none;
+font-weight: bold;
+margin: 0 0 0.2em 0;
+text-align: center;
+box-shadow: 3px 3px 3px 3px rgba(43,43,77,0.5);
+}
+ #body h4 a{
+width: 80px;
+float: right;
+background-color: gainsboro;
+display: block;
+padding: 0.2em;
+padding-right: 0px;
+text-decoration: none;
+font-weight: bold;
+margin: 0 0 0.2em 0;
+text-align: center;
+box-shadow: 3px 3px 3px 3px rgba(43,43,77,0.5);
+}
+#footer{
+    width: 100%;
+    height: 100px;
+    background-color: #adadb2;
+}
+#footer h4{
+	padding-top: 10px;
+}
+#menu{
+    width:100%;
+    height: 300px;
+    color: gray;
+}
+ul li {
+    width: 30%;
+    height: 70px;
+    margin-left: 10px;
+    margin-right: 10px;
+    background: gainsboro;
+    float: left;
+    list-style: none;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 3px 3px 3px 3px rgba(43,43,77,0.5);
+
+}
+ul li a{
+    text-decoration: none;
+    text-align: center;
+    color: Black;
+}
+#form{
+    width: 50%;
+    height: 250px;
+    background-color: gray;
+    position: center;
+    border-radius: 10px;
+    box-shadow: 3px 3px 3px 3px rgba(43,43,77,0.5);
+
+}
+#ngo-form{
+    width: 50%;
+    height: 200px;
+    background-color: gray;
+    position: center;
+    border-radius: 10px;
+    box-shadow: 3px 3px 3px 3px rgba(43,43,77,0.5);
+
+}
+#exchange-blood-form{
+    width: 50%;
+    height: 300px;
+    background-color: gray;
+    position: center;
+    border-radius: 10px;
+    box-shadow: 3px 3px 3px 3px rgba(43,43,77,0.5);
+
+}
+#newform {
+    color: black;
+    background-color: #adadb2;
+    width: 920px;
+    height: auto;
+    box-shadow: 3px 3px 3px 3px rgba(43,43,77,0.5);
+
+
+
+}
+#stokebloodlistform {
+    color: black;
+    background-color: #adadb2;
+    width: 328px;
+    height: auto;
+    box-shadow: 3px 3px 3px 3px rgba(43,43,77,0.5);
+}
+=============animation======css=========
+@keyframes myMove{
+    0% {left: 0px;}
+    25%{left: 225px;}
+    50%{left: 450px;}
+    75%{left: 225px;}
+    100%{left: 0px;}
+}
+@-webkit-keyframes myMove{
+    0% {left: 0px;}
+    25%{left: 225px;}
+    50%{left: 450px;}
+    75%{left: 225px;}
+    100%{left: 0px;}
+}
+@-moz-keyframes myMove{
+    0% {left: 0px;}
+    25%{left: 225px;}
+    50%{left: 450px;}
+    75%{left: 225px;}
+    100%{left: 0px;}
+}
+#welcomeDiv h2{
+    position: relative;
+    animation: myMove 5s infinite;
+    -webkit-animation: myMove 5s infinite;
+    -moz-animation: myMove 5s infinite;
+    
+}
