@@ -1,1 +1,1 @@
-# BBMS-project
+Blood bank management system
